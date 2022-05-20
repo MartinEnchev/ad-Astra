@@ -1,11 +1,5 @@
 function adAstra(inputArray) {
 
-    /*
-    Здравейте. Изпитна зад. Ad Astra, от Fundamentals JS, като я правя с речник дава само 33 % Преправям я, да е с масив, и веднага получавам 100 % .. (zero тестовете не гърмят на речник-варианта..) Това е вариантът ми с речник: https://pastebin.com/tGh09EEV (усл: judge>Fundam-Exams>01.Final)
-    */
-
-    // ?? tova e s rechnik i dava 33 % ; prepravih go s masiv i vednaga dade 100 % ...  
-
     let pattern = /([#]|[\|])(?<itemName>[a-zA-Z\s]+)\1(?<expirDate>[0-9]{2}[\/][0-9]{2}[\/][0-9]{2})\1(?<calories>[0-9]{1,5})\1/g;
     let text = inputArray[0];
     const CALOR_PER_DAY = 2000;
